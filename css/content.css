@@ -1,0 +1,334 @@
+@charset "UTF-8";
+.btnOrder a {
+	color: #FFCD1C;
+}
+/*----------------------------------------------------
+サイドバナー
+----------------------------------------------------*/
+.banBox {
+	margin: 0 0 15px 0;
+}
+/*----------------------------------------------------
+プロフィール
+----------------------------------------------------*/
+.proTable {
+	margin: 0;
+	padding: 0;
+	width: 330px;
+}
+.proTable td {
+	padding: 3px 0;
+}
+.profileImgBox {
+	float: right;
+	width: 270px;
+	padding: 0 0 1em 1em;
+	clear: right;
+}
+.profileImgBoxR {
+	float: right;
+	width: 300px;
+	padding: 0 0 1em 1.5em;
+	clear: right;
+}
+.profileImgBoxL {
+	float: left;
+	width: 230px;
+	padding: 0 1.5em 1em 0;
+	clear: right;
+}
+.profileImgBox p {
+	text-align: center;
+	font-size: 85%;
+}
+.profileReadBox {
+	margin: 0 0 5em 0;
+	line-height: 1.8;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+.profileReadBox h2 {
+	margin: 0 0 1em 0;
+}
+.profileReadBox p {
+	margin: 0 0 1em 0;
+}
+/*----------------------------------------------------
+アクセスマップ
+----------------------------------------------------*/
+.mapBox {
+	width: 425px;
+	text-align: center;
+	float: left;
+}
+.mapAddress {
+	float: left;
+	padding: 0 0 0 3em;
+}
+/*----------------------------------------------------
+作品ラインナップ
+----------------------------------------------------*/
+.lineupImgBox {
+	width: 680px;
+	margin: 0 auto;
+}
+.lightCatBox {
+	clear: both;
+	margin: 0 0 30px 0;
+}
+.lightCatBox h4 {
+	font-weight: normal;
+	margin: 0 0 0.5em 0;
+	font-size: 116%;
+}
+.lightCatBox h5 {
+	font-weight: normal;
+	margin: 0 0 0.5em 0;
+	font-size: 100%;
+	clear: both;
+}
+.imageBox {
+	float: left;
+	width: 173px;
+	margin: 0 10px 20px;
+	text-align: center;
+}
+.imageBox p {
+	text-align: left;
+}
+.imageBox img {
+	margin: 0 0 0.5em 0;
+}
+.clickImg {
+	margin: 0 0 0.5em 0;
+}
+.readBox {
+	margin: -0.5em 0 1em;
+	line-height: 1.8;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+/* ラインナップナビ
+----------------------------------------------------*/
+#lineupNav {
+	margin: 0 auto 2em;
+	list-style: none;
+}
+#lineupNav li {
+	text-indent: -9999px;
+}
+/* 玄関アプローチ灯 */
+#lineupNav li.entapp a {
+	width: 230px;
+	height: 32px;
+	background-image: url(../img/light/lineupnav.gif);
+	background-position: 0 0;
+	display: block;
+}
+#lineupNav li.entapp a.selected,
+#lineupNav li.entapp a:hover {
+	background:url(../img/light/lineupnav.gif);
+	background-position: 230px 0;
+	display: block;
+}
+/* 景観照明 */
+#lineupNav li.land a {
+	width: 230px;
+	height: 32px;
+	background-image: url(../img/light/lineupnav.gif);
+	background-position: 0 -32px;
+	display: block;
+}
+#lineupNav li.land a.selected,
+#lineupNav li.land a:hover {
+	background:url(../img/light/lineupnav.gif);
+	background-position: 230px -32px;
+	display: block;
+}
+/* インテリアライト */
+#lineupNav li.inte a {
+	width: 230px;
+	height: 32px;
+	background-image: url(../img/light/lineupnav.gif);
+	background-position: 0 -64px;
+	display: block;
+}
+#lineupNav li.inte a.selected,
+#lineupNav li.inte a:hover {
+	background:url(../img/light/lineupnav.gif);
+	background-position: 230px -64px;
+	display: block;
+}
+/* アート作品 */
+#lineupNav li.art a {
+	width: 230px;
+	height: 32px;
+	background-image: url(../img/light/lineupnav.gif);
+	background-position: 0 -96px;
+	display: block;
+}
+#lineupNav li.art a.selected,
+#lineupNav li.art a:hover {
+	background:url(../img/light/lineupnav.gif);
+	background-position: 230px -96px;
+	display: block;
+}
+/* 和紙照明 */
+#lineupNav li.japa a {
+	width: 230px;
+	height: 32px;
+	background-image: url(../img/light/lineupnav.gif);
+	background-position: 0 -128px;
+	display: block;
+}
+#lineupNav li.japa a.selected,
+#lineupNav li.japa a:hover {
+	background:url(../img/light/lineupnav.gif);
+	background-position: 230px -128px;
+	display: block;
+}
+/*----------------------------------------------------
+施工例
+----------------------------------------------------*/
+/* 施工例ナビ
+----------------------------------------------------*/
+#consNav {
+	margin: 0 auto 2em;
+	list-style: none;
+}
+#consNav li {
+	text-indent: -9999px;
+}
+/* アプローチ */
+#consNav li.app a {
+	width: 230px;
+	height: 32px;
+	background-image: url(../img/construction/consnav.gif);
+	background-position: 0 0;
+	display: block;
+}
+#consNav li.app a.selected,
+#consNav li.app a:hover {
+	background:url(../img/construction/consnav.gif);
+	background-position: 230px 0;
+	display: block;
+}
+/* 玄関 */
+#consNav li.ent a {
+	width: 230px;
+	height: 32px;
+	background-image: url(../img/construction/consnav.gif);
+	background-position: 0 -32px;
+	display: block;
+}
+#consNav li.ent a.selected,
+#consNav li.ent a:hover {
+	background:url(../img/construction/consnav.gif);
+	background-position: 230px -32px;
+	display: block;
+}
+/* 景観照明 */
+#consNav li.land a {
+	width: 230px;
+	height: 32px;
+	background-image: url(../img/construction/consnav.gif);
+	background-position: 0 -64px;
+	display: block;
+}
+#consNav li.land a.selected,
+#consNav li.land a:hover {
+	background:url(../img/construction/consnav.gif);
+	background-position: 230px -64px;
+	display: block;
+}
+/* 庭ライトアップ */
+#consNav li.garden a {
+	width: 230px;
+	height: 32px;
+	background-image: url(../img/construction/consnav.gif);
+	background-position: 0 -96px;
+	display: block;
+}
+#consNav li.garden a.selected,
+#consNav li.garden a:hover {
+	background:url(../img/construction/consnav.gif);
+	background-position: 230px -96px;
+	display: block;
+}
+/* マンションベランダガーデニング */
+#consNav li.balcony a {
+	width: 230px;
+	height: 32px;
+	background-image: url(../img/construction/consnav.gif);
+	background-position: 0 -128px;
+	display: block;
+}
+#consNav li.balcony a.selected,
+#consNav li.balcony a:hover {
+	background:url(../img/construction/consnav.gif);
+	background-position: 230px -128px;
+	display: block;
+}
+/* インテリアライト */
+#consNav li.inte a {
+	width: 230px;
+	height: 32px;
+	background-image: url(../img/construction/consnav.gif);
+	background-position: 0 -160px;
+	display: block;
+}
+#consNav li.inte a.selected,
+#consNav li.inte a:hover {
+	background:url(../img/construction/consnav.gif);
+	background-position: 230px -160px;
+	display: block;
+}
+/* 店舗照明 */
+#consNav li.store a {
+	width: 230px;
+	height: 32px;
+	background-image: url(../img/construction/consnav.gif);
+	background-position: 0 -192px;
+	display: block;
+}
+#consNav li.store a.selected,
+#consNav li.store a:hover {
+	background:url(../img/construction/consnav.gif);
+	background-position: 230px -192px;
+	display: block;
+}
+/* 和紙照明 */
+#consNav li.japa a {
+	width: 230px;
+	height: 32px;
+	background-image: url(../img/construction/consnav.gif);
+	background-position: 0 -224px;
+	display: block;
+}
+#consNav li.japa a.selected,
+#consNav li.japa a:hover {
+	background:url(../img/construction/consnav.gif);
+	background-position: 230px -224px;
+	display: block;
+}
+/*----------------------------------------------------
+オーダー照明
+----------------------------------------------------*/
+.orderImgBox {
+	float: right;
+	width: 300px;
+	padding: 0 0 1em 1.5em;
+	clear: right;
+}
+.orderReadBox {
+	margin: 0 0 5em 0;
+	line-height: 1.8;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+.orderReadBox h2 {
+	margin: 0 0 1em 0;
+}
+.orderReadBox p {
+	margin: 0 0 1em 0;
+}

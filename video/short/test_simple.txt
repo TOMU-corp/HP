@@ -1,0 +1,1 @@
+color=black:size=64x64:duration=1:rate=1[outv]
