@@ -27,16 +27,16 @@
       'align-items:center;justify-content:center;flex-direction:column;' +
       'font-family:sans-serif;z-index:999999;';
     overlay.innerHTML =
-      '<form id="gate-form" style="text-align:center;background:#262626;padding:56px 70px;border-radius:14px;">' +
-      '<p style="margin:0 0 28px;font-size:26px;">このサイトはパスワードで保護されています</p>' +
-      '<div style="margin-bottom:18px;">' +
-      '<input type="text" id="gate-id" placeholder="ID" autocomplete="off" style="padding:14px 18px;font-size:25px;border-radius:7px;border:1px solid #ccc;width:280px;">' +
+      '<form id="gate-form" style="text-align:center;background:#262626;padding:84px 105px;border-radius:21px;">' +
+      '<p style="margin:0 0 42px;font-size:39px;">このサイトはパスワードで保護されています</p>' +
+      '<div style="margin-bottom:27px;">' +
+      '<input type="text" id="gate-id" placeholder="ID" autocomplete="off" style="padding:21px 27px;font-size:38px;border-radius:11px;border:1px solid #ccc;width:420px;">' +
       '</div>' +
-      '<div style="margin-bottom:25px;">' +
-      '<input type="password" id="gate-pw" placeholder="PASSWORD" autocomplete="off" style="padding:14px 18px;font-size:25px;border-radius:7px;border:1px solid #ccc;width:280px;">' +
+      '<div style="margin-bottom:38px;">' +
+      '<input type="password" id="gate-pw" placeholder="PASSWORD" autocomplete="off" style="padding:21px 27px;font-size:38px;border-radius:11px;border:1px solid #ccc;width:420px;">' +
       '</div>' +
-      '<button type="submit" style="padding:14px 35px;font-size:25px;border-radius:7px;border:none;background:#4a7c59;color:#fff;cursor:pointer;">入室</button>' +
-      '<p id="gate-error" style="color:#ff8080;margin:21px 0 0;font-size:23px;visibility:hidden;">IDまたはパスワードが違います</p>' +
+      '<button type="submit" style="padding:21px 53px;font-size:38px;border-radius:11px;border:none;background:#4a7c59;color:#fff;cursor:pointer;">入室</button>' +
+      '<p id="gate-error" style="color:#ff8080;margin:32px 0 0;font-size:35px;visibility:hidden;">IDまたはパスワードが違います</p>' +
       '</form>';
 
     document.body.appendChild(overlay);
