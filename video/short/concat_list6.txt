@@ -1,2 +1,0 @@
-file 'X:/TOMU/tomu_site_edit/video/short/scenes_captioned_v4.mp4'
-file 'X:/TOMU/tomu_site_edit/video/short/black_1s.mp4'
