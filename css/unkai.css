@@ -429,6 +429,12 @@ section { padding: 100px 0; }
 	color: #FFFFFF;
 	text-shadow: 0 1px 6px rgba(0,0,0,0.9);
 }
+.gallery-caption--fit {
+	font-size: 9px;
+	white-space: nowrap;
+	padding-left: 6px;
+	padding-right: 6px;
+}
 /* ---------------------------------------------------------------
    導入シーン(ターゲット)
 --------------------------------------------------------------- */
