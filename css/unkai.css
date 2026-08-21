@@ -404,6 +404,9 @@ section { padding: 100px 0; }
 	overflow: hidden;
 	position: relative;
 }
+.gallery-item--wide {
+	grid-column: span 2;
+}
 .gallery-item img {
 	width: 100%;
 	aspect-ratio: 4 / 3;
@@ -430,10 +433,7 @@ section { padding: 100px 0; }
 	text-shadow: 0 1px 6px rgba(0,0,0,0.9);
 }
 .gallery-caption--fit {
-	font-size: 9px;
 	white-space: nowrap;
-	padding-left: 6px;
-	padding-right: 6px;
 }
 
 /* ---------------------------------------------------------------
