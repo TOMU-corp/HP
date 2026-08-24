@@ -61,10 +61,23 @@ header.site-header {
 	border-bottom: 1px solid rgba(184,147,63,0.35);
 }
 header.site-header .wrap {
+	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	height: 78px;
+}
+nav.main-nav .nav-left {
+	position: absolute;
+	top: 50%;
+	right: calc(50% + 17px);
+	transform: translateY(-50%);
+}
+nav.main-nav .nav-right {
+	position: absolute;
+	top: 50%;
+	left: calc(50% + 17px);
+	transform: translateY(-50%);
 }
 .brand {
 	font-size: 22px;
@@ -229,15 +242,23 @@ nav.main-nav a:hover { color: var(--gold); }
 	line-height: 2;
 }
 .hero-topline {
-	display: inline-flex;
-	align-items: center;
-	gap: 16px;
+	position: relative;
+	display: block;
+	height: 44px;
 	margin-bottom: 28px;
 }
 .hero-topline .hero-eyebrow {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateY(-50%);
 	margin-bottom: 0;
 }
 .hero-play-btn {
+	position: absolute;
+	right: calc(50% + 8px);
+	top: 50%;
+	transform: translateY(-50%);
 	display: inline-flex;
 	align-items: center;
 	gap: 10px;
@@ -251,6 +272,7 @@ nav.main-nav a:hover { color: var(--gold); }
 	border-radius: 999px;
 	cursor: pointer;
 	transition: all 0.25s ease;
+	white-space: nowrap;
 }
 .hero-play-btn:hover {
 	background: var(--gold);
@@ -392,7 +414,7 @@ section { padding: 100px 0; }
 }
 
 /* ---------------------------------------------------------------
-   石灯 × 人工雲海(コラボレーション)
+   石の灯り × 人工雲海(コラボレーション)
 --------------------------------------------------------------- */
 .collab-section {
 	display: flex;
@@ -442,6 +464,12 @@ section { padding: 100px 0; }
 }
 .collab-actions {
 	justify-content: flex-start;
+}
+.collab-note {
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 1.9;
+	color: rgba(243,238,226,0.65);
 }
 
 /* ---------------------------------------------------------------
