@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tomu-corp.github.io/HP/sitemap.xml
