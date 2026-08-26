@@ -97,7 +97,7 @@
 </div>
 <div class="features-grid">
 <div class="feature-card">
-<img loading="lazy" decoding="async" src="img/top/scenes/scene10.jpg" alt="満月の雲海アート" class="feature-photo" />
+<img loading="lazy" decoding="async" src="img/top/point1_no7.jpg" alt="雲海にそびえ立つ城" class="feature-photo" />
 <div class="feature-body">
 <span class="feature-num">POINT 1</span>
 <h3>いつでも狙った時間に<br />映える空間演出</h3>
@@ -158,6 +158,47 @@
 <h2>来待石の灯りと、<br />人工雲海の共演。</h2>
 <p class="collab-lead">来待石を用いた陶夢オリジナルの「石の灯り」に、<br />幻想的な人工雲海のミストを重ねる ――<br />陶夢だけが実現できる、唯一無二の夜間演出です。<br /><br />石の灯りと人工雲海のセットでのご導入により、<br />庭園を歩く体験そのものを"物語"として完成させます。</p>
 <p class="collab-note">※来待石とは・・・島根県松江市来待地区で採れる凝灰質砂岩。加工しやすく、江戸時代は松江藩門外不出の貴重な石として、出雲石灯籠など石造美術品に用いられてきました。</p>
+</div>
+</section>
+
+<section id="craft-videos" class="washi-texture">
+<div class="wrap">
+<div class="section-head">
+<p class="section-eyebrow">CRAFTSMANSHIP</p>
+<h2>石と職人の物語</h2>
+</div>
+<div class="craft-videos-grid">
+<div class="craft-video-item">
+<div class="craft-video" data-video="video/craft_ishitokaiwa.mp4">
+<img class="craft-video-poster" src="img/top/craft_ishitokaiwa_poster.jpg" alt="石との対話" />
+<button type="button" class="craft-video-play" aria-label="動画を再生"><span class="play-triangle"></span></button>
+<video class="craft-video-el" playsinline controls>
+<source src="video/craft_ishitokaiwa.mp4" type="video/mp4" />
+</video>
+</div>
+<p class="craft-video-title">石との対話</p>
+</div>
+<div class="craft-video-item">
+<div class="craft-video" data-video="video/craft_shokunin.mp4">
+<img class="craft-video-poster" src="img/top/craft_shokunin_poster.jpg" alt="職人の手" />
+<button type="button" class="craft-video-play" aria-label="動画を再生"><span class="play-triangle"></span></button>
+<video class="craft-video-el" playsinline controls>
+<source src="video/craft_shokunin.mp4" type="video/mp4" />
+</video>
+</div>
+<p class="craft-video-title">職人の手</p>
+</div>
+<div class="craft-video-item">
+<div class="craft-video" data-video="video/craft_kimachi.mp4">
+<img class="craft-video-poster" src="img/top/craft_kimachi_poster.jpg" alt="来待石" />
+<button type="button" class="craft-video-play" aria-label="動画を再生"><span class="play-triangle"></span></button>
+<video class="craft-video-el" playsinline controls>
+<source src="video/craft_kimachi.mp4" type="video/mp4" />
+</video>
+</div>
+<p class="craft-video-title">来待石</p>
+</div>
+</div>
 </div>
 </section>
 
@@ -304,6 +345,17 @@
 
 	window.addEventListener('load', function(){
 		playHeroReveal();
+	});
+
+	document.querySelectorAll('.craft-video').forEach(function(wrap){
+		var playBtn = wrap.querySelector('.craft-video-play');
+		var video = wrap.querySelector('.craft-video-el');
+		if (playBtn && video) {
+			playBtn.addEventListener('click', function(){
+				wrap.classList.add('playing');
+				video.play();
+			});
+		}
 	});
 })();
 </script>
