@@ -478,8 +478,17 @@ section { padding: 100px 0; }
 --------------------------------------------------------------- */
 .craft-videos-grid {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	gap: 24px;
+}
+.craft-videos-row-top {
+	max-width: 100%;
+	margin: 0 auto 40px;
+}
+.craft-videos-row-bottom {
+	grid-template-columns: repeat(2, 1fr);
+	max-width: 66%;
+	margin: 0 auto;
 }
 .craft-video-item {
 	text-align: center;
@@ -719,7 +728,8 @@ footer.site-footer .foot-brand {
 	.features-grid { grid-template-columns: 1fr; }
 	.targets-grid { grid-template-columns: 1fr; }
 	.gallery-strip { grid-template-columns: repeat(2, 1fr); }
-	.craft-videos-grid { grid-template-columns: 1fr; max-width: 320px; margin: 0 auto; }
+	.craft-videos-grid, .craft-videos-row-bottom { grid-template-columns: 1fr; max-width: 320px; margin: 0 auto; }
+	.craft-videos-row-top { margin-bottom: 24px; }
 	section { padding: 64px 0; }
 	.collab-section { flex-direction: column; min-height: 0; }
 	.collab-photo, .collab-text { flex: 1 1 auto; max-width: 100%; }
