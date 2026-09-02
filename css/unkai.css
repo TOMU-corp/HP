@@ -556,6 +556,35 @@ section { padding: 100px 0; }
 	letter-spacing: 0.08em;
 	color: var(--ink);
 }
+.craft-philosophy-wrap {
+	display: flex;
+	align-items: center;
+	gap: 48px;
+	margin-top: 64px;
+}
+.craft-philosophy-photo {
+	flex: 0 0 228px;
+	width: 228px;
+	aspect-ratio: 1 / 1;
+	object-fit: cover;
+	border-radius: 6px;
+	box-shadow: 0 10px 28px rgba(38,34,32,0.25);
+}
+.craft-philosophy {
+	flex: 1 1 auto;
+	text-align: center;
+}
+.craft-philosophy p {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.9;
+	letter-spacing: 0.04em;
+	color: var(--ink);
+	margin-bottom: 30px;
+}
+.craft-philosophy p:last-child {
+	margin-bottom: 0;
+}
 
 /* ---------------------------------------------------------------
    ギャラリー
@@ -730,6 +759,8 @@ footer.site-footer .foot-brand {
 	.gallery-strip { grid-template-columns: repeat(2, 1fr); }
 	.craft-videos-grid, .craft-videos-row-bottom { grid-template-columns: 1fr; max-width: 320px; margin: 0 auto; }
 	.craft-videos-row-top { margin-bottom: 24px; }
+	.craft-philosophy-wrap { flex-direction: column; gap: 28px; }
+	.craft-philosophy-photo { width: 200px; flex: none; }
 	section { padding: 64px 0; }
 	.collab-section { flex-direction: column; min-height: 0; }
 	.collab-photo, .collab-text { flex: 1 1 auto; max-width: 100%; }
