@@ -340,7 +340,12 @@ nav.main-nav a:hover { color: var(--gold); }
    セクション共通
 --------------------------------------------------------------- */
 section { padding: 100px 0; }
-#targets { padding-top: 40px; }
+#targets { padding-top: 40px; padding-bottom: 133px; }
+#targets .section-head p {
+	font-size: 22.5px;
+	font-weight: 700;
+	color: #000;
+}
 .section-head {
 	text-align: center;
 	margin-bottom: 64px;
@@ -655,6 +660,33 @@ section { padding: 100px 0; }
 	color: var(--ink);
 	text-align: justify;
 }
+.targets-mosaic {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1mm;
+}
+.targets-mosaic > img {
+	display: block;
+	width: 100%;
+	aspect-ratio: 16 / 10;
+	object-fit: cover;
+}
+.targets-mosaic > img.mosaic-43 {
+	aspect-ratio: 4 / 3;
+}
+.targets-text {
+	margin-top: 1mm;
+}
+.craft-video--wide {
+	margin-bottom: 0;
+	border-radius: 0;
+	box-shadow: none;
+}
+.craft-video--wide .craft-video-poster,
+.craft-video--wide .craft-video-el {
+	aspect-ratio: 16 / 10;
+	object-fit: cover;
+}
 
 /* ---------------------------------------------------------------
    CTA
@@ -747,6 +779,7 @@ footer.site-footer .foot-brand {
 	.craft-videos-grid, .craft-videos-row-bottom { grid-template-columns: 1fr; max-width: 320px; margin: 0 auto; }
 	.craft-videos-row-top { margin-bottom: 24px; }
 	section { padding: 64px 0; }
+	#targets { padding-bottom: 85px; }
 	.collab-section { flex-direction: column; min-height: 0; }
 	.collab-photo, .collab-text { flex: 1 1 auto; max-width: 100%; }
 	.collab-photo img { min-height: 260px; }
