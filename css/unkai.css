@@ -723,12 +723,19 @@ footer.site-footer {
 footer.site-footer .wrap {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-end;
 	flex-wrap: wrap;
 	gap: 20px;
 }
 footer.site-footer .foot-brand {
 	font-size: 15px;
+	letter-spacing: 0.1em;
+	color: #FBF8F1;
+}
+footer.site-footer .foot-contact {
+	margin-top: 14px;
+	font-size: 15px;
+	line-height: 1.9;
 	letter-spacing: 0.1em;
 	color: #FBF8F1;
 }
